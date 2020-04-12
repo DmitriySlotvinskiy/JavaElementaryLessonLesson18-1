@@ -19,7 +19,7 @@
 
         // 4
         if (spinnerStat != null) {
-            spinneerStat.setBackgroundResource(R.drawable.bg_spinner);
+            spinnerStat.setBackgroundResource(R.drawable.bg_spinner);
         } else {
             spinnerStat.setBackgroundResource(R.drawable.bg_spinner_error);
         }

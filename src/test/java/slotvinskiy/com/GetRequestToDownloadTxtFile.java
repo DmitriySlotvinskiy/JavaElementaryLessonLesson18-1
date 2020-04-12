@@ -40,7 +40,7 @@ public class GetRequestToDownloadTxtFile {
             request = new Request.Builder()
                     .url(URL)
                     .get()
-                    .addHeader("Range", "bytes=500-" + contentLength)
+                    .addHeader("Range", "bytes=501-" + contentLength)
                     .build();
 
             response = client.newCall(request).execute();
